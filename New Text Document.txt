@@ -1,0 +1,191 @@
+
+Z:\>c:
+
+C:\>cd users
+
+C:\Users>1794404
+'1794404' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users>C:\Users\1794404\Desktop\306
+'C:\Users\1794404\Desktop\306' is not recognized as an internal or external comm
+and,
+operable program or batch file.
+
+C:\Users>c
+'c' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users>1794404\Desktop\306
+'1794404\Desktop\306' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users>cd desktop
+The system cannot find the path specified.
+
+C:\Users>cd 1794404
+
+C:\Users\1794404>cd desktop
+
+C:\Users\1794404\Desktop>306
+'306' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\1794404\Desktop>306
+'306' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Users\1794404\Desktop>cd 306
+
+C:\Users\1794404\Desktop\306>git init
+Initialized empty Git repository in C:/Users/1794404/Desktop/306/.git/
+
+C:\Users\1794404\Desktop\306>git congig --global username.name
+git: 'congig' is not a git command. See 'git --help'.
+
+Did you mean this?
+        config
+
+C:\Users\1794404\Desktop\306>git config --global user.name
+
+C:\Users\1794404\Desktop\306>git config --global user.name aman
+
+C:\Users\1794404\Desktop\306>git config --global user.name
+aman
+
+C:\Users\1794404\Desktop\306>git status on branch master
+On branch master
+
+Initial commit
+
+nothing to commit (create/copy files and use "git add" to track)
+
+C:\Users\1794404\Desktop\306>git add a.txt
+fatal: pathspec 'a.txt' did not match any files
+
+C:\Users\1794404\Desktop\306>git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        a.txt.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\1794404\Desktop\306>git commit
+On branch master
+
+Initial commit
+
+Untracked files:
+        a.txt
+
+nothing added to commit but untracked files present
+
+C:\Users\1794404\Desktop\306>git commit -m"added a.txt"
+On branch master
+
+Initial commit
+
+Untracked files:
+        a.txt
+
+nothing added to commit but untracked files present
+
+C:\Users\1794404\Desktop\306>git commit -m"Added a.txt"
+On branch master
+
+Initial commit
+
+Untracked files:
+        a.txt
+
+nothing added to commit but untracked files present
+
+C:\Users\1794404\Desktop\306>git status
+On branch master
+
+Initial commit
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+        a.txt
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\1794404\Desktop\306>git config --global user.name aman
+
+C:\Users\1794404\Desktop\306>git config --global user.name
+aman
+
+C:\Users\1794404\Desktop\306>git add aman.txt
+
+C:\Users\1794404\Desktop\306>git status
+On branch master
+
+Initial commit
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+
+        new file:   aman.txt
+
+
+C:\Users\1794404\Desktop\306>git commit -m"Added aman.txt"
+[master (root-commit) 4d70f52] Added aman.txt
+ Committer: aman <1794404@CEGEPGIM.LCL>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 aman.txt
+
+C:\Users\1794404\Desktop\306>git status
+On branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+        modified:   aman.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\1794404\Desktop\306>git add aman.txt
+
+C:\Users\1794404\Desktop\306>git status
+On branch master
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+        modified:   aman.txt
+
+
+C:\Users\1794404\Desktop\306>git commit -m"explained how reza is coolest"
+[master 5900b35] explained how reza is coolest
+ Committer: aman <1794404@CEGEPGIM.LCL>
+Your name and email address were configured automatically based
+on your username and hostname. Please check that they are accurate.
+You can suppress this message by setting them explicitly:
+
+    git config --global user.name "Your Name"
+    git config --global user.email you@example.com
+
+After doing this, you may fix the identity used for this commit with:
+
+    git commit --amend --reset-author
+
+ 1 file changed, 1 insertion(+)
+
+C:\Users\1794404\Desktop\306>
